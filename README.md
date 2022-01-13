@@ -1,2 +1,2 @@
 # Farmist
-You are a farmest farmer in the "Farmist" game about farm
+You are a farmest farmer in the "Farmist" game about farming 
