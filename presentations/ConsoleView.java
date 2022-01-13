@@ -39,9 +39,9 @@ public class ConsoleView {
             } else if (player.farmHealth>=100){
                 System.out.printf("Ферма стала слишком процветающей и у вас отняли её силой.\nСостояние фермы(%d) >= 100", player.farmHealth);
             } else if (player.money<=0){
-                System.out.printf("У вас не осталось денег на корм животным и семена.\nФинансы(%d) >= 100", player.money);
+                System.out.printf("У вас не осталось денег на корм животным и семена.\nФинансы(%d) <= 0", player.money);
             } else if (player.money>=100){
-                System.out.printf("Вы молча улетели на Сейшелы.\nФинансы(%d) <= 0", player.money);
+                System.out.printf("Вы молча улетели на Сейшелы.\nФинансы(%d) >= 100", player.money);
             } else {
                 throw new Error("Что-то пошло не так.");
             }
